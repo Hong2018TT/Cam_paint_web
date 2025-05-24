@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    /* For set Variable Style Css */
+}
+body{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.cam-paint{
+    background: linear-gradient(to right, #fff3e0, #ffeacc, #ffe0b8, #ffd6a3, #ffd5a2);
+}
+.scroll_slide::-webkit-scrollbar {
+    width: 4px;
+}
+
+.scroll_slide::-webkit-scrollbar-thumb {
+    background-color: #c4c4c45c;
+    border-radius: 10px;
+}

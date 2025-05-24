@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@theme{
+    --font-display: "Bauhaus 93";
+    /* --color-campaint: linear-gradient(
+        to right,
+        oklch(97.4% 0.02 80),
+        oklch(95.8% 0.03 80),
+        oklch(94% 0.04 80),
+        oklch(92% 0.05 80),
+        oklch(90% 0.06 80)
+        ); */
+}
